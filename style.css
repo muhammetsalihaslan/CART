@@ -2,15 +2,12 @@ table{
    font-family: arial,sans-serif; 
    border-collapse: collapse;
    width: 100%;
-   background-color: rgb(218, 209, 213);
+   /* background-color: rgb(218, 209, 213); */
 }
 
 .ftr{
     background-color:black;
     color:white;
-}
-.last{
-    background-color:black;
 }
 
 th, td{
@@ -20,5 +17,10 @@ th, td{
 
 tr:nth-child(even){
     background-color:lightgray;
+}
+
+tr:last-child{
+    background-color:black;
+    color: white;
 }
 
