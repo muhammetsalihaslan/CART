@@ -9,6 +9,9 @@ table{
     background-color:black;
     color:white;
 }
+.last{
+    background-color:black;
+}
 
 th, td{
     border: 1px solid white;
@@ -18,3 +21,4 @@ th, td{
 tr:nth-child(even){
     background-color:lightgray;
 }
+
